@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/addemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD EMPLOYEE"
+        android:layout_marginTop="20dp"
+
+        tools:ignore="InvalidId" />
+
+    <Button
+        android:id="@+id/updateemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update data"
+        android:layout_marginTop="20dp"
+        tools:ignore="InvalidId" />
+
+    <Button
+        android:id="@+id/deleteemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete emp"
+        android:layout_marginTop="20dp"
+        tools:ignore="InvalidId" />
+
+    <Button
+        android:id="@+id/selectemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get a employee"
+        android:layout_marginTop="20dp"
+        tools:ignore="InvalidId" />
+
+    <Button
+        android:id="@+id/selectallemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Getalldata"
+        android:layout_marginTop="20dp"
+        tools:ignore="InvalidId" />
+</LinearLayout>
